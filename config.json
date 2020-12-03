@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "https://tippi052035.wixsite.com/womeninmovie",
+    "text": "고하경"
+  },
+  "text": {
+    "more": "\u003cp\u003e\n노드의 색상\u003d Gender/ 여성: 빨강, 남성: 파랑, 여성\u0026남성: 노랑\n\u003c/p\u003e\n\n\u003cp\u003e\n노드의 크기\u003d Degree/ min 20, max 120\n\u003c/p\u003e\n\n\u003cp\u003e\n엣지의 색상\u0026 굵기\u003d Weight\n\u003c/p\u003e",
+    "intro": "총 4가지의 영화의 데이터를 모아 성별과 중요도를 중심으로 시각화 했습니다.\n영화는 도둑들, 암살, 극한직업, 기생충입니다.",
+    "title": "전체 성별 시각화"
+  },
+  "legend": {
+    "edgeLabel": "weight",
+    "colorLabel": "Gender",
+    "nodeLabel": "영화 속 역할"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "movie_name",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
